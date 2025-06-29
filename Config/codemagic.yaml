@@ -4,8 +4,8 @@ workflows:
     name: iOS Release Build
     environment:
       vars:
-        BUNDLE_ID: "com.example.spin2dine"
-        APP_STORE_CONNECT_EMAIL: "spin2dine@gmail.com"
+        BUNDLE_ID: "com.glynpool.spin2dine"
+        APP_STORE_CONNECT_EMAIL: "glyn.pool@baronservices.com"
     scripts:
       - name: Install dependencies
         script: |
